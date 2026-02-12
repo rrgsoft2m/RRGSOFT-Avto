@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://lucide.dev/icon/car-front.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RRGSOFT | Kelajak Sari</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0a0a0a',
+                dark: '#121212',
+                gray: '#f3f4f6', // Light gray for backgrounds
+                accent: '#0E2954', // Premium Deep Blue (Samarkand Blue)
+                gold: '#D4AF37', // Gold for national accent
+                silver: '#e5e7eb',
+                text: '#1f2937', // Dark gray text
+              }
+            },
+            fontFamily: {
+              sans: ['"Exo 2"', 'sans-serif'],
+            },
+            animation: {
+              'spin-slow': 'spin 12s linear infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Google Fonts: Exo 2 for Automotive feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Exo 2', sans-serif;
+        background-color: #f8fafc;
+        color: #1f2937;
+        overflow-x: hidden;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #c7c7c7; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #0E2954; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.34.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
